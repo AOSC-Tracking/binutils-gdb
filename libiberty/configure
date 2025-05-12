@@ -2460,7 +2460,7 @@ fi
 ## -------------------- ##
 
 ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
+ac_cpp='$CPP $CPPFLAGS -O2'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
@@ -3000,7 +3000,7 @@ $as_echo "$as_me: target_header_dir = $target_header_dir" >&6;}
 
 
 ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
+ac_cpp='$CPP $CPPFLAGS -O2'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
@@ -3812,14 +3812,14 @@ if test "x$ac_cv_prog_cc_c89" != xno; then :
 fi
 
 ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
+ac_cpp='$CPP $CPPFLAGS -O2'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 
 ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
+ac_cpp='$CPP $CPPFLAGS -O2'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
@@ -3950,7 +3950,7 @@ See \`config.log' for more details" "$LINENO" 5; }
 fi
 
 ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
+ac_cpp='$CPP $CPPFLAGS -O2'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
@@ -4884,7 +4884,7 @@ if test -n "$PLUGIN_OPTION"; then
 fi
 
 ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
+ac_cpp='$CPP $CPPFLAGS -O2'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
@@ -4936,14 +4936,14 @@ fi
   done
 CFLAGS="$save_CFLAGS"
 ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
+ac_cpp='$CPP $CPPFLAGS -O2'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
 
 
 ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
+ac_cpp='$CPP $CPPFLAGS -O2'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
@@ -4985,7 +4985,7 @@ fi
 
 fi
 ac_ext=c
-ac_cpp='$CPP $CPPFLAGS'
+ac_cpp='$CPP $CPPFLAGS -O2'
 ac_compile='$CC -c $CFLAGS $CPPFLAGS conftest.$ac_ext >&5'
 ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $LDFLAGS conftest.$ac_ext $LIBS >&5'
 ac_compiler_gnu=$ac_cv_c_compiler_gnu
